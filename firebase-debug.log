@@ -1,0 +1,72 @@
+[debug] [2024-12-12T07:21:10.246Z] ----------------------------------------------------------------------
+[debug] [2024-12-12T07:21:10.249Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create ios gala_travels_app --bundle-id=com.parents.lakshyaschoolbus --project=gala-application
+[debug] [2024-12-12T07:21:10.249Z] CLI Version:   13.0.2
+[debug] [2024-12-12T07:21:10.249Z] Platform:      win32
+[debug] [2024-12-12T07:21:10.249Z] Node Version:  v21.0.0
+[debug] [2024-12-12T07:21:10.249Z] Time:          Thu Dec 12 2024 12:51:10 GMT+0530 (India Standard Time)
+[debug] [2024-12-12T07:21:10.249Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-12T07:21:10.306Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-12T07:21:10.312Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-12T07:21:10.312Z] > authorizing via signed-in user (sagarkukava00@gmail.com)
+[info] Create your IOS app in project gala-application:
+[debug] [2024-12-12T07:22:23.676Z] ----------------------------------------------------------------------
+[debug] [2024-12-12T07:22:23.679Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create ios gala_travels_app --bundle-id=com.example.galaTravelsApp.RunnerTests --project=gala-application
+[debug] [2024-12-12T07:22:23.679Z] CLI Version:   13.0.2
+[debug] [2024-12-12T07:22:23.679Z] Platform:      win32
+[debug] [2024-12-12T07:22:23.679Z] Node Version:  v21.0.0
+[debug] [2024-12-12T07:22:23.680Z] Time:          Thu Dec 12 2024 12:52:23 GMT+0530 (India Standard Time)
+[debug] [2024-12-12T07:22:23.680Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-12T07:22:23.733Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-12T07:22:23.738Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-12T07:22:23.738Z] > authorizing via signed-in user (sagarkukava00@gmail.com)
+[info] Create your IOS app in project gala-application:
+[debug] [2024-12-12T07:22:26.882Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps [none]
+[debug] [2024-12-12T07:22:26.882Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps {"displayName":"gala_travels_app","bundleId":"com.example.galaTravelsApp.RunnerTests","appStoreId":""}
+[debug] [2024-12-12T07:22:27.661Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps 409
+[debug] [2024-12-12T07:22:27.661Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-12-12T07:22:27.662Z] HTTP Error: 409, Requested entity already exists
+[debug] [2024-12-12T07:22:28.176Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create iOS app for project gala-application. See firebase-debug.log for more info.
+[debug] [2024-12-12T07:23:50.703Z] ----------------------------------------------------------------------
+[debug] [2024-12-12T07:23:50.706Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create ios gala_travels_app --bundle-id=com.example.galaTravelsApp.RunnerTests --project=gala-application
+[debug] [2024-12-12T07:23:50.706Z] CLI Version:   13.28.0
+[debug] [2024-12-12T07:23:50.706Z] Platform:      win32
+[debug] [2024-12-12T07:23:50.707Z] Node Version:  v21.0.0
+[debug] [2024-12-12T07:23:50.707Z] Time:          Thu Dec 12 2024 12:53:50 GMT+0530 (India Standard Time)
+[debug] [2024-12-12T07:23:50.707Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-12T07:23:50.766Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-12T07:23:50.771Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-12T07:23:50.771Z] > authorizing via signed-in user (sagarkukava00@gmail.com)
+[info] Create your IOS app in project gala-application:
+[debug] [2024-12-12T07:23:50.791Z] Checked if tokens are valid: true, expires at: 1733990900422
+[debug] [2024-12-12T07:23:50.791Z] Checked if tokens are valid: true, expires at: 1733990900422
+[debug] [2024-12-12T07:23:50.792Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps [none]
+[debug] [2024-12-12T07:23:50.792Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps {"displayName":"gala_travels_app","bundleId":"com.example.galaTravelsApp.RunnerTests","appStoreId":""}
+[debug] [2024-12-12T07:23:51.621Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps 409
+[debug] [2024-12-12T07:23:51.621Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-12-12T07:23:51.622Z] Request to https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps had HTTP Error: 409, Requested entity already exists
+[debug] [2024-12-12T07:23:52.251Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/gala-application/iosApps had HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create iOS app for project gala-application. See firebase-debug.log for more info.
+[debug] [2024-12-12T07:24:07.444Z] ----------------------------------------------------------------------
+[debug] [2024-12-12T07:24:07.446Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create ios gala_travels_app --bundle-id=com.example.galaTravelsApp.RunnerTests --project=gala-application
+[debug] [2024-12-12T07:24:07.446Z] CLI Version:   13.28.0
+[debug] [2024-12-12T07:24:07.446Z] Platform:      win32
+[debug] [2024-12-12T07:24:07.446Z] Node Version:  v21.0.0
+[debug] [2024-12-12T07:24:07.447Z] Time:          Thu Dec 12 2024 12:54:07 GMT+0530 (India Standard Time)
+[debug] [2024-12-12T07:24:07.447Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-12T07:24:07.500Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2024-12-12T07:24:07.505Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-12T07:24:07.506Z] > authorizing via signed-in user (sagarkukava00@gmail.com)
+[info] Create your IOS app in project gala-application:
